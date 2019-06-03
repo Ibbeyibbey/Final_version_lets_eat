@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+  	<meta charset = "utf-8">
+     <meta name="viewport" content="width=device-width" />
+	  <title>Let's Eat!</title>
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--Extrenal  Css file --> 
+    <link rel="stylesheet" type= "text/css" href="index.css" media="screen"/>
+
+    <!--JS file -->
+    <script src="side_nav.js"></script>
+  </head>
+ 
+  <body>
+      <header>
+        <h1><strong>Let's Eat!</strong></h1></header>
+        <div class="avocado"></div>
+
+      <!--This is for the side navigation--> 
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick= "closeNav()">&times;</a>
+
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+
+      <div id="righty">
+      <span style="font-size :30px; cursor:pointer" onclick ="openNav()">&#9776;
+      Open Sesame</span>
+      </div>
+
+      <footer id= "footer"> Photography by 
+        <a href="https://www.instagram.com/thoughtcatalog">Thought Catalog</a>
+      </footer>
+
+  </body>
+</html>
